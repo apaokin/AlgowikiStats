@@ -1,0 +1,23 @@
+{
+	"name": "AlgowikiStats",
+	"version": "0.0.0",
+	"author": [
+		"Andrei Paokin"
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:MyExtension",
+	"descriptionmsg": "algostats-desc",
+	"license-name": "MIT",
+	"type": "specialpage",
+	"AutoloadClasses": {
+		"SpecialAlgowikiStats": "SpecialAlgowikiStats_body.php"
+	},
+	"SpecialPages": {
+		"AlgowikiStats": "SpecialAlgowikiStats"
+	},
+	"MessagesDirs": {
+		"AlgowikiStats": [
+			"i18n"
+		]
+	},
+	"manifest_version": 1
+}
