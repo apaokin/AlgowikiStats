@@ -9,10 +9,13 @@
 	"license-name": "MIT",
 	"type": "specialpage",
 	"AutoloadClasses": {
-		"SpecialAlgowikiStats": "SpecialAlgowikiStats_body.php"
+		"SpecialAlgowikiStats": "SpecialAlgowikiStats.php"
 	},
 	"SpecialPages": {
 		"AlgowikiStats": "SpecialAlgowikiStats"
+	},
+	"ExtensionMessagesFiles": {
+		"AlgowikiStatsAlias": "i18n/AlgowikiStats.i18n.alias.php"
 	},
 	"MessagesDirs": {
 		"AlgowikiStats": [
