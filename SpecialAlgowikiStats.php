@@ -165,8 +165,8 @@ class SpecialAlgowikiStats extends SpecialPage {
   function execute( $par ) {
     $request = $this->getRequest();
     $this->setHeaders();
-		$this ->dbr = wfGetDB( DB_REPLICA);
-    $this ->dbrEn = wfGetDB( DB_REPLICA,[],'algowiki_en' );
+		$this ->dbr = wfGetDB( DB_SLAVE);
+    $this ->dbrEn = wfGetDB( DB_SLAVE,[],'algowiki_en' );
     $this -> counter = new SiteStatsInit($this -> dbr );
 		$this -> counterEn = new SiteStatsInit($this -> dbrEn );
 
